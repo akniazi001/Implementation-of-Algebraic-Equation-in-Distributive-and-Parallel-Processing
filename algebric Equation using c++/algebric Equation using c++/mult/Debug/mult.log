@@ -1,0 +1,31 @@
+﻿Build started 5/31/2014 10:49:25 PM.
+     1>Project "D:\Project Data\test\mult\mult.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\mult.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MPICH2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source.cpp
+         source.cpp
+     1>d:\project data\test\mult\source.cpp(162): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(163): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(164): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(165): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(166): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(410): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(411): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(412): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(413): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+     1>d:\project data\test\mult\source.cpp(414): warning C4244: '=' : conversion from 'long double' to '__int64', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project Data\test\Debug\mult.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\MPICH2\lib" mpi.lib cxx.lib /MANIFEST /ManifestFile:"Debug\mult.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Project Data\test\Debug\mult.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project Data\test\Debug\mult.lib" /MACHINE:X86 Debug\source.obj
+         LINK : D:\Project Data\test\Debug\mult.exe not found or not built by the last incremental link; performing full link
+         mult.vcxproj -> D:\Project Data\test\Debug\mult.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Project Data\test\Debug\mult.exe;#1" /manifest Debug\mult.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\mult.unsuccessfulbuild".
+         Touching "Debug\mult.lastbuildstate".
+     1>Done Building Project "D:\Project Data\test\mult\mult.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
